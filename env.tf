@@ -8,3 +8,9 @@ variable "cidrblock" {
 variable "az_count" {
   default = 2
 }
+variable "app-backend-image" {
+  default = "geovs/bethehero-backend:latest"
+}
+variable "app-frontend-image" {
+  default = "geovs/bethehero-frontend:latest"
+}
