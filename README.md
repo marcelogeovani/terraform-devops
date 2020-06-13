@@ -36,11 +36,12 @@ $ aws configure
 $ terraform init
 
 # Executes the Terraform run
-$ terraform apply -var"access_key=''" -var"secret_key=''"
+$ terraform apply "
 
 # run the application
 After finishing the execution, an output will be displayed with the loadbalance access url, 
 just wait for the container to be included in the target group and access the informed url.
+This application use local state.
 ```
 
 
