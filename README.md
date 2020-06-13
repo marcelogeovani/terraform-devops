@@ -42,6 +42,7 @@ $ terraform apply "
 After finishing the execution, an output will be displayed with the loadbalance access url, 
 just wait for the container to be included in the target group and access the informed url.
 This application use local state.
+future change can be used remote with s3 working with a lock using dynamodb
 ```
 
 
